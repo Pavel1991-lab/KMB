@@ -1,7 +1,4 @@
 
-
-
-
 def reverse_string(input_string):
     return input_string[::-1]
 
@@ -40,7 +37,3 @@ def generator(n):
             primes.append(num)
     return primes
 
-# Пример использования
-number = 20
-prime_numbers = generator(number)
-print(f"Простые числа до {number}: {prime_numbers}")
